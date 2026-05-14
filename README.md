@@ -1,4 +1,4 @@
-<img width="1917" height="835" alt="Screenshot 2026-05-10 215436" src="https://github.com/user-attachments/assets/1c94037b-c2c1-4710-b2e2-5ebfb9e63c2f" /># Weather Pipeline Project
+# Weather Pipeline Project
 
 This project implements an ETL (Extract, Transform, Load) pipeline for weather data using Apache Airflow, PostgreSQL, and Docker.
 A complete end-to-end Weather Data Engineering Project that fetches real-time weather data from the OpenWeather API, stores it in PostgreSQL using Apache Airflow ETL pipelines, and visualizes insights in Metabase dashboards.
@@ -16,6 +16,7 @@ This project demonstrates a modern Data Engineering workflow using:
 The pipeline collects weather information for multiple UK cities daily and stores it inside PostgreSQL for analytics and visualization.
 
 ## Architecture
+```text
 OpenWeather API
        ↓
 Apache Airflow ETL DAG
@@ -23,8 +24,10 @@ Apache Airflow ETL DAG
 PostgreSQL Database
        ↓
 Metabase Dashboard
+```
 
 ## Project Structure
+```text
 weather-etl-project/
 │
 ├── dags/
@@ -41,6 +44,7 @@ weather-etl-project/
     ├── airflow.png
     ├── metabase_dashboard.png
     ├── postgres_table.png
+```
 
 ## Setup and Running
 
